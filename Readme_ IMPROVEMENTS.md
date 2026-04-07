@@ -1,4 +1,10 @@
 ## This is @RAGF-01-backend improvement
+# 代码改进说明
+
+## 项目简介
+本项目是一个基于 RAG（检索增强生成）技术的知识库系统，用于上传文档、向量化处理并基于文档内容回答问题。
+
+## 问题描述
 [![My Skills](https://skillicons.dev/icons?i=python,vscode,fastapi,git,github,windows，docker)](https://skillicons.dev)
 
 ---
