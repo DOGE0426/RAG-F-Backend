@@ -37,12 +37,12 @@ UPLOAD_DIR = "local-KLB-files"
 METADATA_DIR = "metadata"
 MAX_FILE_SIZE = 50 * 1024 * 1024  # 50MB
 ALLOWED_EXTENSIONS = {".pdf", ".docx", ".txt", ".doc", ".md", ".rtf"}
-VECTORSTORE_DIR = "vectorstore"  # ✅ 新增：向量存储目录
+VECTORSTORE_DIR = "vectorstore"  # 新增：向量存储目录
 
 # 确保目录存在
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(METADATA_DIR, exist_ok=True)
-os.makedirs(VECTORSTORE_DIR, exist_ok=True)  # ✅ 新增
+os.makedirs(VECTORSTORE_DIR, exist_ok=True)  # 新增
 
 METADATA_FILE = os.path.join(METADATA_DIR, "documents.json")
 
@@ -254,7 +254,7 @@ async def upload_complete(data: UploadCompleteRequest):
         try:
             # 检查文件是否存在
             if not os.path.exists(final_file_path):
-                print(f"❌ 文件不存在: {final_file_path}")
+                print(f"文件不存在: {final_file_path}")
                 raise FileNotFoundError(f"文件不存在: {final_file_path}")
             
             file_size = os.path.getsize(final_file_path)
@@ -292,14 +292,14 @@ async def upload_complete(data: UploadCompleteRequest):
             
             # 验证文件是否创建成功
             if os.path.exists(os.path.join(vectorstore_path, 'index.faiss')):
-                print(f"✅ 向量化成功: {vectorstore_path}")
+                print(f"向量化成功: {vectorstore_path}")
             else:
-                print(f"❌ 向量库文件未找到，但未抛出异常")
+                print(f"向量库文件未找到，但未抛出异常")
                 
         except FileNotFoundError as e:
-            print(f"❌ 文件错误: {str(e)}")
+            print(f"文件错误: {str(e)}")
         except Exception as e:
-            print(f"❌ 向量化失败: {str(e)}")
+            print(f"向量化失败: {str(e)}")
             import traceback
             traceback.print_exc()
 
