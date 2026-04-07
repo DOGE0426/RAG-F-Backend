@@ -32,6 +32,9 @@
 - **路径管理**：确保分块目录和目标目录存在
 - **向量化集成**：文件合并后自动进行向量化处理
 
+![img](https://github.com/DOGE0426/RAG-F-Backend/blob/1d4781fc287774d996e187ae19c74a069a97515a/docs/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_7-4-2026_22249_localhost.jpeg)
+
+
 ### 2. 向量化
 - **问题**：点击"执行向量化处理"按钮后，处理失败，无法生成向量存储
 - **错误信息**：`向量存储路径不存在`、`目录不存在`
@@ -40,15 +43,12 @@
 - ![img]([https://github.com/DOGE0426/RAG-F-Backend/blob/36b2bd85579b5835fe0449cf7a443c2578d9cd98/docs/%E5%AF%B9%E6%AF%94.png](https://github.com/DOGE0426/RAG-F-Backend/blob/63e7fe18b91dec6eebe24c7283baed76d37c8672/docs/%E5%AF%B9%E6%AF%94.png))
 -
 -  **RAG回答**：
--   [img](https://github.com/DOGE0426/RAG-F-Backend/blob/63e7fe18b91dec6eebe24c7283baed76d37c8672/docs/%E6%88%90%E5%8A%9F.png)
+-  ![img](https://github.com/DOGE0426/RAG-F-Backend/blob/63e7fe18b91dec6eebe24c7283baed76d37c8672/docs/%E6%88%90%E5%8A%9F.png)
+-
+-/
 -  ![img](https://github.com/DOGE0426/RAG-F-Backend/blob/63e7fe18b91dec6eebe24c7283baed76d37c8672/docs/%E5%89%8D%E7%AB%AF%E5%9B%9E%E7%AD%94.png)
 
-## 技术要点
-- **路径处理**：统一路径格式，确保不同接口使用一致的路径
-- **目录管理**：自动创建必要的目录，避免因目录不存在导致的失败
-- **错误处理**：添加详细的错误检查和日志输出，便于问题定位
-- **向量化集成**：文件合并后自动进行向量化处理，提供完整的文件处理流程
-- **参数验证**：使用Pydantic模型明确接口参数，确保参数正确
+
 
 ## 流程说明
 1. **文件上传**：用户上传文件，前端将文件分块上传
@@ -64,8 +64,6 @@
 1. **向量化回答问题**：通过统一路径格式和自动创建目录，确保向量化处理能够成功完成
 2. **文件合并上传**：通过完善的参数处理和路径管理，确保文件分块能够成功合并
 
-这些修改使得系统能够稳定地进行文件上传、向量化处理和 RAG 查询，为用户提供更好的使用体验。
 
-
-**文档版本**：v1.0  
+**文档版本**：DN1.0  
 **最后更新**：2026-04-07  
