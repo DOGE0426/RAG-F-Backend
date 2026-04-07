@@ -32,7 +32,7 @@
 - **路径管理**：确保分块目录和目标目录存在
 - **向量化集成**：文件合并后自动进行向量化处理
 
-![img](https://github.com/DOGE0426/RAG-F-Backend/blob/1d4781fc287774d996e187ae19c74a069a97515a/docs/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_7-4-2026_22249_localhost.jpeg)
+![img](https://github.com/DOGE0426/RAG-F-Backend/blob/8a03d9e15a75b5e8da7866dd34fba01446d54e41/docs/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_7-4-2026_22939_localhost.jpeg)
 
 
 ### 2. 向量化
@@ -40,9 +40,8 @@
 - **错误信息**：`向量存储路径不存在`、`目录不存在`
 - ![img](https://github.com/DOGE0426/RAG-F-Backend/blob/3cdc4175c98514ec47bfac982dd2e2282eb11888/docs/%E5%90%91%E9%87%8F%E5%8C%96%E5%A4%B1%E8%B4%A5.jpeg)
 - **对比图**：
-- ![img]((https://github.com/DOGE0426/RAG-F-Backend/blob/72e8eb5c82dc3fb84c64aca65dedc14b43963b69/docs/%E5%AF%B9%E6%AF%94.png)
-- (https://github.com/DOGE0426/RAG-F-Backend/blob/63e7fe18b91dec6eebe24c7283baed76d37c8672/docs/%E5%AF%B9%E6%AF%94.png))
 -
+![img](https://github.com/DOGE0426/RAG-F-Backend/blob/72e8eb5c82dc3fb84c64aca65dedc14b43963b69/docs/%E5%AF%B9%E6%AF%94.png)
 -  **RAG回答**：
 -  ![img](https://github.com/DOGE0426/RAG-F-Backend/blob/63e7fe18b91dec6eebe24c7283baed76d37c8672/docs/%E6%88%90%E5%8A%9F.png)
 -
