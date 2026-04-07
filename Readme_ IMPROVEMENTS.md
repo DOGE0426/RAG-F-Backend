@@ -4,8 +4,7 @@
 ---
 
 
-![img](<img width="1376" height="768" alt="8532fe0b13a61c3a681d4c3558333ae3" src="https://github.com/user-attachments/assets/28a26fdd-4db8-469f-94be-7d57ce967471" />
-)
+[docs/流程图.png](https://github.com/DOGE0426/RAG-F-Backend/blob/7f9d31cc1f9e49716d863dbf09d522290ee88d23/docs/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 ![img](https://free-img.400040.xyz/4/2025/07/29/6887c30419554.jpg)
 
